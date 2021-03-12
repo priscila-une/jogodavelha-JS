@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    text-align: center;
+    background: rgb(179, 176, 176);
+    font-size: 30px;
+}
+
+h1{
+    padding: 30px;
+}
+
+.square{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    background: rgb(205, 170, 216);
+    display: inline-block;
+    color: rgb(205, 170, 216);
+    font-size: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button{
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-family: cursive;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: purple;
+    border: 2px solid white;
+    transition: .8s;
+}
+
+footer{
+    margin-top: 30px;
+    font-size: 20px;
+}
